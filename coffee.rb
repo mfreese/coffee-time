@@ -9,6 +9,10 @@ class Coffee
     self.amount == 1
   end
   def empty?
-    current_amount == 0
+    self.amount <= 0.01
   end
+  def sip!
+    self.amount = self.amount - 0.33
+  end
+
 end

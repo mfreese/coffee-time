@@ -18,7 +18,10 @@ class Human
     self.coffee = x
   end
   def drink!
-    self.drink = 
+    self.alertness += 0.33
+    self.coffee.sip!
   end
+
+
 
 end
