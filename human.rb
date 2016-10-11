@@ -11,7 +11,6 @@ class Human
     def has_coffee?
         coffee.to_i > 0
   end
-
     def needs_coffee?
         coffee.to_i.zero?
     end
